@@ -1,0 +1,20 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Certification {
+  id         String   @id @default(uuid())
+  clientName String
+  index      String   @unique
+  type       String
+  product    String
+  status     String
+  region     String?
+
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
