@@ -98,7 +98,7 @@ export default function LoginAdminPage() {
       </div>
       <footer className="fixed bottom-0 w-full flex flex-col md:flex-row justify-between items-center px-8 py-6 opacity-40 bg-transparent text-[#f1f5f9]">
         <div className="text-[10px] font-label font-medium uppercase tracking-widest">
-          © 2024 Vertex Global Indonesia. Security Level: Restricted.
+          © 2026 Vertex Global Indonesia. Security Level: Restricted.
         </div>
         <div className="flex gap-6 mt-4 md:mt-0">
           <a className="text-[10px] font-label font-medium uppercase tracking-widest text-[#f1f5f9] hover:text-[#3b82f6] transition-colors duration-300" href="#">

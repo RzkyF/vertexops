@@ -631,9 +631,10 @@ export default function Dashboard({ onNewCertification }: DashboardProps) {
               onChange={(e) => handleFilterChange(() => setTypeFilter(e.target.value))}
             >
               <option value="">Semua Tipe</option>
-              <option value="tipe 1">Tipe 1</option>
-              <option value="tipe 5">Tipe 5</option>
-              <option value="batch">Batch / Lot</option>
+              <option value="tipe1b">Tipe 1B</option>
+              <option value="tipe5">Tipe 5</option>
+              <option value="tipe1a">Tipe 1A</option>
+
             </select>
           </div>
           <div className="relative group min-w-[140px]">

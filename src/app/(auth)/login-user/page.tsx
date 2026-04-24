@@ -9,7 +9,7 @@ export default function LoginUserPage() {
               <div className="mb-10">
                 <div className="flex items-center gap-3 mb-6">
                   <span className="w-10 h-[2px] bg-secondary"></span>
-                  <span className="font-headline font-bold text-xs text-secondary tracking-[0.3em] uppercase">Enterprise Access</span>
+                  <span className="font-headline font-bold text-xs text-secondary tracking-[0.3em] uppercase">Vertex OPS</span>
                 </div>
                 <h1 className="font-headline font-bold text-5xl text-primary tracking-tighter mb-4">Vertex Global Indonesia</h1>
                 <p className="text-on-surface-variant text-lg leading-relaxed max-w-sm">Secure authentication for Vertex Operational Workflow Management System.</p>
