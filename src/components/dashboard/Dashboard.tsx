@@ -185,7 +185,7 @@ export default function Dashboard({ onNewCertification }: DashboardProps) {
   const [productFilter, setProductFilter] = useState('');
   const [statusFilter, setStatusFilter] = useState('');
   const [viewMode, setViewMode] = useState<'grid' | 'table'>('grid');
-  const [limit, setLimit] = useState(6);
+  const [limit, setLimit] = useState(5);
   const [currentPage, setCurrentPage] = useState(1);
   const [activeModal, setActiveModal] = useState<ModalId | null>(null);
 
@@ -835,21 +835,7 @@ export default function Dashboard({ onNewCertification }: DashboardProps) {
                           onClick={() => openModal('modalEdit')}
                           type="button"
                         >
-                          <span className="material-symbols-outlined text-[18px]">edit_square</span>
-                        </button>
-                        <button 
-                          className="w-8 h-8 flex items-center justify-center text-slate-400 hover:text-emerald-600 hover:bg-emerald-50 rounded-lg transition-all border border-transparent"
-                          onClick={() => openModal('modalAddTask')}
-                          type="button"
-                        >
-                          <span className="material-symbols-outlined text-[18px]">add_circle</span>
-                        </button>
-                        <button 
-                          className="w-8 h-8 flex items-center justify-center text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all border border-transparent"
-                          onClick={() => openModal('modalProgress')}
-                          type="button"
-                        >
-                          <span className="material-symbols-outlined text-[18px]">swap_horiz</span>
+                          <span className="material-symbols-outlined text-[18px]">visibility</span>
                         </button>
                         <button 
                           className="w-8 h-8 flex items-center justify-center text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-all border border-transparent"
@@ -882,7 +868,7 @@ export default function Dashboard({ onNewCertification }: DashboardProps) {
                 setCurrentPage(1);
               }}
             >
-              <option value="6">6</option>
+              <option value="5">5</option>
               <option value="10">10</option>
               <option value="25">25</option>
               <option value="50">50</option>

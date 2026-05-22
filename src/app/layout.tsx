@@ -15,8 +15,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Enterprise Command Center | Vertex Global",
-  description: "Managing client pipelines and status across the organization.",
+  title: "Enterprise Command Center | Vertex Global Indonesia",
+  description: "Managing Certification in Vertex Global Indonesia.",
 };
 
 export default function RootLayout({
